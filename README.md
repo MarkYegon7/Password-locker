@@ -10,6 +10,10 @@ Mark Yegon
 
 One is able to save there passwords here and it can generate passwords for you.
 
+# Contact information
+
+Markyegonk@gmail.com
+
 # license
 
 Copyright (c) 2021 MarkYegon7

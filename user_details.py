@@ -34,7 +34,7 @@ class Credentials:
         Credentials.credentials_list.append(self)
         
     def generate_password():
-        char=string.ascii_uppercase+string.ascii_lowercase+string.digits
+        char=string.ascii_lowercase+string.ascii_lowercase+string.digits
         gen_pass=''.join(random.choice(char))
         return gen_pass
     

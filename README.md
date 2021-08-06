@@ -13,6 +13,7 @@ This is application is used to store details of a user and allows them to genera
 # Project setup instructions
 
 Git clone https://github.com/MarkYegon7/Password-Locker.git
+
 Navigate to the folder using teminal
 
 # Technologies Used

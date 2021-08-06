@@ -32,7 +32,7 @@ upon input gp, the out put generates automatic password to user.
 
 upon input ex, the out put prompt user to exist/logout.
 
-# Support and contact details
+# Contact details
 
 markyegonk@gmail.com
 

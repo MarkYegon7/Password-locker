@@ -3,6 +3,9 @@ import random
 import string
 
 class User:
+    '''
+    creates user accounts and save information
+    '''
     
     def __init__(self,username,password):
         self.username = username
@@ -22,6 +25,9 @@ class User:
         return False
         
 class Credentials:
+    '''
+    class to create account credentials,generate passwords and save information
+    '''
     def __init__(self,user_name,site_name,account_name,password):
         self.user_name = user_name
         self.site_name = site_name
@@ -40,6 +46,9 @@ class Credentials:
     
     @classmethod
     def display_credentials(cls):
+        '''
+        display list of credentials saved
+        '''
         # user_credentials_list = []
         # for credential in cls.credentials_list:
             # if credential.user_name == user_name:

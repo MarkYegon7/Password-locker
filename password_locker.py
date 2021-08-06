@@ -2,31 +2,53 @@ import pyperclip
 from user_details import User, Credentials
 
 def create_user(username,password):
-	new_user = User(username,password)
-	return new_user
+    
+    '''
+    Create new user account
+    '''
+    new_user = User(username,password)
+    return new_user
 
 def save_user(user):
-	user.save_user()
+    '''
+    Save a new user account
+    '''
+    user.save_user()
 
 
 def verify_user(username,password):
-	return User.check_user(username,password)
+    '''
+    verify user before creating credentials
+    '''
+    return User.check_user(username,password)
 	 
 def generate_password():
-	return Credentials.generate_password()
+    '''
+    Generates passwords
+    '''
+    return Credentials.generate_password()
 	 
 def create_credential(user_name,site_name,account_name,password):
-	new_credential=Credentials(user_name,site_name,account_name,password)
-	return new_credential
+    '''
+    creates new credentials
+    '''
+    new_credential=Credentials(user_name,site_name,account_name,password)
+    return new_credential
 
 def save_credential(credential):
-	Credentials.save_credentials(credential)
+    '''
+    saves a newly created credential
+    '''
+    Credentials.save_credentials(credential)
 
 def display_credentials(user_name):
 	return Credentials.display_credentials(user_name)
 	
 def copy_credential(site_name):
-	return Credentials.copy_credential(site_name)
+    '''
+    copy credential details to clipboard
+    '''
+    return Credentials.copy_credential(site_name)
 
 def main():
 	print(' ')
